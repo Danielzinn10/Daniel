@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1.1</title>
+
+  <!-- CSS Interno -->
+  <style>
+    /* Estilo do corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    /* Estilo do título h1 */
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    /* Estilo dos parágrafos normais */
+    p {
+      color: #333;
+    }
+
+    /* Estilo da classe destaque */
+    .destaque {
+      background-color: yellow;
+      padding: 10px;
+    }
+
+    /* Estilo do ID especial */
+    #especial {
+      color: red;
+      font-style: italic;
+    }
+
+    /* Estilo da classe container */
+    .container {
+      background-color: white;
+      padding: 20px;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Meu Primeiro Exercício CSS</h1>
+
+  <p>Este é um parágrafo normal.</p>
+  <p class="destaque">Este parágrafo deve ter destaque.</p>
+  <p id="especial">Este parágrafo é especial.</p>
+
+  <div class="container">
+    <h2>Seção Importante</h2>
+    <p>Conteúdo da seção importante.</p>
+  </div>
+</body>
+</html>
